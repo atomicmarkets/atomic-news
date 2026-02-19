@@ -1,0 +1,9 @@
+{
+  "version": 2,
+  "name": "atomic-news",
+  "rewrites": [
+    { "source": "/article/(.*)", "destination": "/index.html" },
+    { "source": "/bookmarks", "destination": "/index.html" },
+    { "source": "/(.*)", "destination": "/index.html" }
+  ]
+}
